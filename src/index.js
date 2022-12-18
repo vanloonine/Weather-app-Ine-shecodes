@@ -79,7 +79,7 @@ function showCurrentPostion(position) {
   let positionlong2 = parseFloat(positionlong.toFixed(2));
   console.log(positionlong2);
 
-  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let apiKey = "ab8e7ef210556986d1c9a75d6007b825";
   let apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${positionlat2}&lon=${positionlong2}&appid=${apiKey}&units=metric`;
 
   axios.get(apiURL).then(showTemp2);
