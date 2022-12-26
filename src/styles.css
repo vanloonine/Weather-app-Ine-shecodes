@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #7c7c7c;
+  color: #1f271b;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -16,7 +16,7 @@ ul {
 }
 
 li {
-  color: #7c7c7c;
+  color: #1f1a38;
   font-size: 16px;
   font-weight: 100;
   height: 19px;
@@ -24,8 +24,12 @@ li {
   list-style: none;
 }
 
+a {
+  color: #7b506f;
+}
+
 .weather-app {
-  border: 1px solid #dadde1;
+  border: 2px solid #1f1a38;
   padding: 15px;
   margin: 20px auto;
   border-radius: 10px;
@@ -39,7 +43,7 @@ li {
 }
 
 .temperature {
-  color: rgb(33, 33, 33);
+  color: #1f271b;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -55,9 +59,9 @@ li {
 }
 
 button {
-  background-color: darkgray;
+  background-color: #dbcdc6;
   font-family: arial, sans-serif;
-  color: white;
+  color: #1f1a38;
   border: none;
   border-radius: 10px;
   font-size: 15px;
@@ -65,4 +69,11 @@ button {
 
 .open-source {
   text-align: center;
+  color: #7b506f;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #7b506f;
+  border-color: #7b506f;
 }
